@@ -1,0 +1,37 @@
+.main_box {
+ width:85%;
+ margin: 150px  auto  0px; /*(t,rl,b)*/
+}
+.inner_box {
+    width:28%;
+    display:inline-block;
+    margin:10px;
+    padding:20px;
+    box-shadow: 1px 1px 5px 1px #80808082;
+
+}
+.img_style {
+    height:250px;
+    width:350px;
+}
+.heading_div h2 {
+    display:inline;
+}
+.heading_div {
+    padding:10px;
+    margin-top: 20px;
+}
+
+ .btn_style {
+    background-color: #83bc2e;
+    color:white;
+    padding: 15px 20px;
+    border:2px solid grey;
+ }
+ .btn_style:hover {
+    background-color: white;
+    color:black;
+ }
+.inner_box:hover h2 {
+    color: #83bc2e;
+}
